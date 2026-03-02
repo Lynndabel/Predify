@@ -1,0 +1,80 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+*.log
+
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+
+# Production
+build/
+dist/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+!.env.example
+
+# CRE Configuration (IMPORTANT: Contains API keys and private keys)
+cre-workflow/config.production.json
+cre-workflow/config.staging.json
+cre-workflow/config.development.json
+cre-workflow/.cre/
+!cre-workflow/config.example.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Misc
+.cache/
+.temp/
+.tmp/
+
+# Hardhat / Foundry (if added later)
+cache/
+artifacts/
+typechain/
+typechain-types/
+deployments/
+
+# Contract artifacts
+*.abi
+*.bin
+
+# Private keys and sensitive data
+*.key
+*.pem
+secrets/
+private/
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
