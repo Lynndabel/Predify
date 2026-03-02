@@ -1,0 +1,23 @@
+{
+  "name": "prediction-market-cre-workflow",
+  "version": "1.0.0",
+  "description": "Chainlink CRE workflow for AI-powered prediction market resolution",
+  "main": "main.ts",
+  "scripts": {
+    "simulate": "cre workflow simulate",
+    "build": "cre workflow build",
+    "deploy": "cre workflow deploy"
+  },
+  "dependencies": {
+    "@chainlink/cre-sdk": "latest",
+    "viem": "^2.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "bun": ">=1.2.21"
+  }
+}
