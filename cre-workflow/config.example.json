@@ -1,0 +1,32 @@
+{
+  "_comment": "============================================",
+  "_comment2": "CRE WORKFLOW CONFIGURATION TEMPLATE",
+  "_comment3": "============================================",
+  "_warning": "⚠️  NEVER commit config.production.json - it contains secrets!",
+  "_instructions": "Copy this file to config.production.json and fill in your actual values",
+  
+  "predictionMarketAddress": "0x67b018939F05751363581D58C46909B6640C30D3",
+  "_note_address": "Your deployed Prediction Market contract address on Celo Sepolia",
+  
+  "chainSelector": "CELO_SEPOLIA_CHAIN_SELECTOR",
+  "_note_chainSelector": "Check https://docs.chain.link/cre for Celo Sepolia chain selector",
+  "_note_chainSelector2": "If Celo Sepolia not supported yet, use manual resolution or wait for support",
+  
+  "openaiApiKey": "sk-YOUR_OPENAI_API_KEY_HERE",
+  "_note_openai": "REQUIRED: Get from https://platform.openai.com/api-keys",
+  "_note_openai2": "Needed for AI-powered market resolution",
+  
+  "coingeckoApiKey": "CG-YOUR_COINGECKO_API_KEY_HERE",
+  "_note_coingecko": "OPTIONAL: Get from https://www.coingecko.com/en/api",
+  "_note_coingecko2": "Free tier works fine for demo. Used for crypto price markets",
+  
+  "crePrivateKey": "0xYOUR_PRIVATE_KEY_HERE_64_CHARS",
+  "_note_crePrivateKey": "⚠️  CRITICAL: Private key for CRE resolver wallet",
+  "_note_crePrivateKey2": "KEEP SECRET! Never share or commit!",
+  "_note_crePrivateKey3": "This wallet must be set as creResolver in the smart contract",
+  
+  "rpcUrl": "https://forno.celo-sepolia.celo-testnet.org",
+  "_note_rpcUrl": "Celo Sepolia RPC endpoint",
+  "_note_rpcUrl2": "Alternative RPCs: check https://docs.celo.org"
+}
+
